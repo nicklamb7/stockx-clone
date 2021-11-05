@@ -1,0 +1,58 @@
+.cover {
+    margin-top: 0px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'RingsideWideSSm-Medium_Web',sans-serif;
+    font-size: 36px;
+    font-stretch:extra-expanded;
+    letter-spacing: 5px;
+
+    background-image: url(//stockx-assets.imgix.net/Core/homepage/MainImageFire_041521.png?auto=compress,format);
+    -webkit-background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: #000;
+}
+
+.cover .top-text {
+    padding-bottom: 12px;
+}
+
+.cover .highlighted-text {
+    color: white;
+    background-color: #000;
+    padding: 8px;
+    margin: 16px;
+
+}
+
+.cover input {
+    width: 640px;
+    height: 48px;
+    padding: 0px 12px 0px 60px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: none;
+}
+
+.cover form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.cover form svg {
+    left: 40px;
+    position: relative;
+}
